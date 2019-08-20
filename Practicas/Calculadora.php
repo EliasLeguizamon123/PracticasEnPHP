@@ -39,16 +39,16 @@
     	if ($_POST ["valor1"] !="" and $_POST ["valor2"]!=""){
     		if ($_POST["operador"] == "suma") {
     			print ($resultado = $_POST ["valor1"] + $_POST ["valor2"]);
-    			print ('<br /><a href="ejercicios.php">Volver</a>');
+    			print ('<br /><a href="ejercicios.php">Volver</a>');     //Esta opcion vuelve a la pagina inicial para calcular.
     		} elseif ($_POST["operador"] == "resta") {
     			print ($resultado = $_POST ["valor1"] - $_POST ["valor2"]);
-    			print ('<br /><a href="ejercicios.php">Volver</a>');
+    			print ('<br /><a href="ejercicios.php">Volver</a>');     //Esta opcion vuelve a la pagina inicial para calcular.
     		} elseif ($_POST["operador"] == "multiplicacion") {
     			print ($resultado = $_POST ["valor1"] * $_POST ["valor2"]);
-    			print ('<br /><a href="ejercicios.php">Volver</a>');
+    			print ('<br /><a href="ejercicios.php">Volver</a>');     //Esta opcion vuelve a la pagina inicial para calcular.
     		} elseif ($_POST["operador"] == "division") {
     			print ($resultado = $_POST ["valor1"] / $_POST ["valor2"]);
-    			print ('<br /><a href="ejercicios.php">Volver</a>');
+    			print ('<br /><a href="ejercicios.php">Volver</a>');     //Esta opcion vuelve a la pagina inicial para calcular.
     		}
     	} else {
     		print("Ingresa algún valor");
